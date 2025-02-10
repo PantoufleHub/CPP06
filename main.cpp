@@ -1,7 +1,8 @@
 #include "ScalarConverter.hpp"
 
-int main()
+int main(int ac, char **av)
 {
-	ScalarConverter::convert("coucou");
+	(void)ac;
+	ScalarConverter::convert(av[1]);
 	return 0;
 }
