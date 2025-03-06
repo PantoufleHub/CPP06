@@ -10,5 +10,6 @@ int main()
 	identify(b);
 	identify(*b);
 
+	delete b;
 	return 0;
 }
